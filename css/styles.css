@@ -1,0 +1,119 @@
+/* HEADER AND FOOTER */
+.logo {
+  width: 15%;
+  height: auto;
+  padding-left: 20px;
+}
+
+/* MAIN POSTER */
+.mainposter {
+  width: 100%;
+  height: auto;
+}
+
+/* TENTANG KAMI */
+
+.manifesto-desc {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: center;
+  color: black;
+}
+
+.page-heading, h1 {
+  font-family: 'Abyssinica SIL', serif;
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+#tentang-kami, #footer {
+  background-color: #FFECEF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+.smallposter {
+  width: 100%;
+  height: auto;
+}
+
+/* CERITA KAMI */
+
+#cerita-kami {
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+
+/* MANFAAT MEDITASI */
+
+#five-benefits {
+  background-color: white;
+  padding: 50px 0 50px 0;
+  color: black;
+  text-align: left;
+}
+
+.middle-container {
+  text-align: center;
+}
+
+.pillar-pic {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.pillar-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.pillar-desc {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.pillar-name {
+  font-family: 'Abyssinica SIL', serif;
+}
+
+/* MEDITASI CONTENT */
+.title-image {
+  width: 90%;
+  height: auto;
+}
+
+.big-heading {
+  font-family: 'Abyssinica SIL', serif;
+  font-size: 11rem;
+  line-height: 1.5;
+}
+
+.accordion {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.accordion-button {
+  background-color: #FFECEF;
+  color: black;
+}
+
+@media (max-width: 1028px) {
+  .logo {
+    width: 35%;
+    height: auto;
+    padding-left: 20px;
+  }
+
+  .big-heading {
+    font-size: 5rem;
+  }
+}
